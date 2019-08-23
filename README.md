@@ -12,7 +12,7 @@ docker push gcr.io/google-samples/pubsub-sample:v1
 
 ## Kubernetes
 
-Deploy kubernetes service and deployment: 
+Deploy kubernetes HPA and deployment:
 ```bash
 kubectl apply -f deployments
 ```
